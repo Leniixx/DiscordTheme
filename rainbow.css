@@ -29,7 +29,7 @@ The 2 items above are not owned by me, They go to there respected owners
 .container-1r6BKw {background: transparent!important;}
 
 .friendsActionRemove-qu8nnl {background-color: red!important;}
-.friendsActionVoiceCall-3EdPsR {background-color: rgb(232,34,133)!important;}
+.friendsActionVoiceCall-3EdPsR {background-color: rgb(532,34,133)!important;}
 .friendsActionVideoCall-2_PKeP {background-color: rgb(232,34,133)!important;}
 
 .stickyHeader-1pqx0j , .headerBar-UHpsPw {background-color: transparent!important;}
@@ -113,8 +113,8 @@ background-size: 1800% 1800%;
 	.list-2bwCXU { padding-left: 10px; }
 
 		/*VC Info*/
-		.container-1UB9sr {background-color: rgba(0,0,0,0.55)!important; border: 0;}
-		.buttonDisconnect-3W_SJc {background-color: rgba(100,0,0,0.9)!important;}
+		.container-1UB9sr {background-color: rgba(0,0,0,0.1)!important;}
+		.buttonDisconnect-3W_SJc {background-color: rgba(0,0,0,0.0)!important;}
 
 		/*VC User*/
 		.avatarSpeaking-3MqCHLt {box-shadow:0 0 0 2px cyan; }
@@ -128,7 +128,7 @@ background-size: 1800% 1800%;
 .h1-1IDj26 {color: cyan!important;}
 .hasMore-3e72_v button {background-color: rgba(50,50,50,0.5)!important; color: cyan;}
 .wrapperHover-1GktnT , .mention {background-color: rgba(32,222,207,0.2)!important; color: cyan!important;}
-.isMentionedCozy-3isp7y {background-color: rgba(32,222,136,0.2)!important;}
+.isMentionedCozy-3isp7y {background-color: rgba(32,222,136,0.1)!important;}
 .isMentionedCozy-3isp7y:after {background: cyan; border-left: 4px solid cyan; width: 1px;}
 code , pre {background-color: rgba(50,50,50,0.3)!important}
 
@@ -136,7 +136,7 @@ code , pre {background-color: rgba(50,50,50,0.3)!important}
 .messageGroupBlockedBtn-1PBBh- {background-color: transparent!important; color: cyan!important;}
 
 .noticeRegion-1YviSH {margin: auto;}
-.lookLink-9FtZy- , .anchor-3Z-8Bb , .bda-link {color: rgb(27,228,50,0.3)!important;}
+.lookLink-9FtZy- , .anchor-3Z-8Bb , .bda-link {color: rgb(7,228,50,0.3)!important;}
 .embedProviderLink-2Pq1Uw {color: rgb(150,150,150)!important;}
 
 .unreadMentionsBar-1VrBNe { 
@@ -186,7 +186,35 @@ background-size: 1800% 1800%;
 
 
 /*ScrollBars*/
-::-webkit-scrollbar-thumb {background-color: rgba(32,222,207,0.6)!important; border-color: transparent!important;}
+::-webkit-scrollbar-thumb { 
+background: linear-gradient(124deg, #ff7409, #e91d1d, #e8b71d, #e3e81d, #15e840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 1s ease infinite;
+-z-animation: rainbow 1s ease infinite;
+-o-animation: rainbow 1s ease infinite;
+  animation: rainbow s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    %{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    2%{background-position:0% 82%}
+    60%{background-position:100% 19%}
+    00%{background-position:0% 82%}
+} border-color: transparent!important;}
 .messagesWrapper-3lZDfY ::-webkit-scrollbar-track-piece , .friendsTable-133bsv ::-webkit-scrollbar-track-piece , .gameLibrary-TTDw4Y ::-webkit-scrollbar-track-piece {background-color: transparent!important; border-color: transparent!important;}
 .messagesWrapper-3lZDfY ::-webkit-scrollbar-track , .friendsTable-133bsv ::-webkit-scrollbar-track , .gameLibrary-TTDw4Y ::-webkit-scrollbar-track {background-color: rgba(32,222,207,0.4)!important; border-radius: 10px; border-color: rgba(32,222,207,0.4)!important}
 
@@ -210,7 +238,36 @@ input[type=checkbox]:checked+span,.checkbox-1ix_J3{border-color:cyan!important;b
 .popout-open .content-OzHfo4 {background-color: rgba(100,100,100,0.6)!important; margin-left: 15px}
 
 /*Inputs*/
-.lookFilled-1Gx00P, .valueChecked-m-4IJZ, .bd-pfbtn, .checked, .bda-settings-button , .addButton-pcyyf6 , .tabBar-1E2ExX .primary-3j8BhM , .da-selected[style*="rgb(114, 137, 218)"] {background-color: cyan!important;}
+.lookFilled-1Gx00P, .valueChecked-m-4IJZ, .bd-pfbtn, .checked, .bda-settings-button , .addButton-pcyyf6 , .tabBar-1E2ExX .primary-3j8BhM , .da-selected[style*="rgb(114, 137, 218)"] { 
+
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
 .barFill-23-gu- , .itemSelected-1qLhcL.da-role {background-color: cyan}
 .inputDefault-_djjkz:focus , .focused-1mmYsC {border-color: cyan!important}
 .questionMark-CWEQZn {background-color: cyan!important; margin-bottom: 4px}
@@ -354,7 +411,7 @@ a[target="_blank"] {color: cyan;}
 /*TopBar*/
 .typeWindows-1za-n7 , .notice-2FJMB4 {background-color: rgba(0,0,0,0.7); border-bottom: 2px solid rgb(100,0,0); height: 30px}
 .typeWindows-1za-n7:after {
-	content: "Mael's Theme by Lenixx";
+	content: "Lenixx Rainbow Theme";
 	color: rgb(255,255,255,0.6);
 	font-weight: 500;
 
