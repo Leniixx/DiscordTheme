@@ -1,14 +1,14 @@
 /*
 Theme Owned and Made by VaporousCreeper#9514
   
-Background Img: https://image.noelshack.com/fichiers/2019/19/5/1557504451-triangle-space-tylercreatesworlds-penrose-triangle-wallpaper.jpg
+Background Img: https://images6.alphacoders.com/333/333000.jpg
 Transparency2 Module: https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css - By Ruben7173#5048
 
 The 2 items above are not owned by me, They go to there respected owners
 */
 
 :root{
-    --background: url('https://image.noelshack.com/fichiers/2019/19/5/1557504451-triangle-space-tylercreatesworlds-penrose-triangle-wallpaper.jpg');
+    --background: url('https://images6.alphacoders.com/333/333000.jpg');
 
     --transparency-1: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
 	--transparency-2: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
